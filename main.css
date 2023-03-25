@@ -1,0 +1,269 @@
+header {
+    background-color: #016fb9;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+    height: 105px;
+}
+
+nav {
+    background-color: #182825;
+    grid-area: nav;
+}
+
+main {
+    background-color: #016fb9;
+    color: white;
+    grid-area: main;
+    height: 40vh;
+    width: 60%;
+}
+
+aside {
+    background-color: #182825;
+    grid-area: aside;
+}
+
+footer {
+    background-color: #182825;
+    color: white;
+    grid-area: footer;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffb347;
+    text-decoration: underline;
+}
+
+aside {
+    background-color: #182825;
+    grid-area: aside;
+    width: 30%;
+}
+
+body {
+    background-color: #182825;
+    color: white;
+}
+
+footer {
+    background-color: #182825;
+    color: white;
+    grid-area: footer;
+    box-shadow: #182825(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 90% 10;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nav nav"
+        "header header"
+        "main aside"
+        "footer footer";
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style: none;
+    justify-items: center;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    margin: 10% 10%
+}
+
+body {
+    background-color: #182825;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-form {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.contact-form div {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px 20px;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+@media screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .on.showNav {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .off.showNav {
+        display: none;
+    }
+}
+
+header {
+    background-color: #016fb9;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+    height: 105px;
+}
+
+nav {
+    background-color: #182825;
+    grid-area: nav;
+}
+
+main {
+    background-color: #016fb9;
+    color: white;
+    grid-area: main;
+    height: 40vh;
+    width: 60%;
+}
+
+aside {
+    background-color: #182825;
+    grid-area: aside;
+}
+
+footer {
+    background-color: #182825;
+    color: white;
+    grid-area: footer;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffb347;
+    text-decoration: underline;
+}
+
+aside {
+    background-color: #182825;
+    grid-area: aside;
+    width: 30%;
+}
+
+body {
+    background-color: #182825;
+    color: white;
+}
+
+footer {
+    background-color: #182825;
+    color: white;
+    grid-area: footer;
+    box-shadow: #182825(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 90% 10;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nav nav"
+        "header header"
+        "main aside"
+        "footer footer";
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style: none;
+    justify-items: center;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    margin: 10% 10%
+}
