@@ -1,0 +1,22 @@
+.work-experience {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.job-duration {
+    font-style: italic;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 20px;
+}
